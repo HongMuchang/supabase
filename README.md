@@ -1,3 +1,1 @@
-- TypeScript
-- Tailwindcss 
-- Nextjs 
+# supabase
