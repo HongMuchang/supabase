@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.none {
+  display: none;
+  /* ボックスごと非表示 */
+}
+
+.hidden {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap; /* 改行せずに表示 */
+  /* ボックスの中身が不可視 */
+}
